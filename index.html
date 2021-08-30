@@ -11,12 +11,15 @@
     <header>
       <nav id="nav">
         <h2 id="h2Name">Travis Crocker</h2>
-        <a href="#">About Me</a>
-        <a href="#">Work</a>
-        <a href="#">Contact Me</a>
+        <a href="#aboutMe">About Me</a>
+        <a href="#projects">Work</a>
+        <a href="#contactInfo">Contact Me</a>
         <a href="#">Resume</a>
       </nav>
     </header>
+    <article id="fenceImage">
+      <img src="images/blue-binary.jpg" alt="Binary Image" style="object-fit: cover;">
+    </article>
     <article id="aboutMe">
       <div class="infoTag">About Me</div>
       <div id="aboutMeInfo">
@@ -26,6 +29,7 @@
         in Javascript, PHP, Python, and C#.
       </div>
     </article>
+
     <article id="projects">
       <div class="infoTag">Work</div>
       <p>
@@ -52,11 +56,11 @@
 
     </article>
     <footer>
-      <div class="infoTag">Contact Info</div>
+      <div id="contactInfoText" class="infoTag">Contact<br> Info</div>
       <div id="contactInfo">
 
         <div class="footerInfo">E-Mail: person@gmail.com</div>
-        <div class="footerInfo">Phone: 111-111-1111</div>
+        <div class="footerInfo">Phone:<br class="hidden-ss"> 111-111-1111</div>
         <div class="footerInfo"><a href="https://github.com/Tmcrocker89" target="_blank" rel="noopener noreferrer">GitHub</a>  </div>
       </div>
     </footer>
