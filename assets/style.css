@@ -86,12 +86,24 @@ body header nav a:hover{
     box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
 }
 
+.divLink{
+    padding: 20px;
+    height: 100%;
+    display: block;
+}
 
 #project1{
     min-height: 400px;
     min-width: 80%;
     text-align: center;
+    background-image: url("../images/codeRefractor.PNG");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
+
+
+
 #legend{
     flex-wrap: wrap;
     flex-direction: column;
@@ -262,6 +274,10 @@ body header nav a:hover{
         min-height: 100px;
         min-width: 80%;
         text-align: center;
+        background-image: url("../images/codeRefractor.PNG");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
     }
 
     #fenceImage img{
@@ -281,10 +297,12 @@ body header nav a:hover{
         text-align: start;
     }
 
-    @media screen and (max-width:280px) {
-        #contactInfoText{
-            display: block;
-        }
 
+}
+
+@media screen and (max-width:280px) {
+    #contactInfoText{
+        display: block;
     }
+
 }
