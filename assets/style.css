@@ -87,7 +87,6 @@ body header nav a:hover{
 }
 
 .divLink{
-    padding: 20px;
     height: 100%;
     display: block;
 }
@@ -96,7 +95,39 @@ body header nav a:hover{
     min-height: 400px;
     min-width: 80%;
     text-align: center;
-    background-image: url("../images/codeRefractor.PNG");
+    background-image: url("../images/calendar.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#project2{
+    text-align: center;
+    background-image: url("../images/weatherDashboard.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#project3{
+    text-align: center;
+    background-image: url("../images/codeQuiz.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#project4{
+    text-align: center;
+    background-image: url("../images/passwordGen.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#project5{
+    text-align: center;
+    background-image: url("../images/workdayScheduler.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -156,7 +187,7 @@ body header nav a:hover{
     background-color: lightblue;
     line-height: 7%;
     height: 25%;
-    width: 30%;
+    min-width: 30%;
     font-size: 20px;
     font-weight: bold;
     top: 70%;
@@ -265,7 +296,7 @@ body header nav a:hover{
 
     .projectLabel{
         height: 50%;
-        width: 30%;
+        min-width: 30%;
         font-size: 10px;
         top: 50%;
     }
